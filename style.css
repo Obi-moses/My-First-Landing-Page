@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+text-decoration: none;
+
+}
+
+body{
+    background-image: url('./images/Screenshot\ \(263\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100rem;  
+}
+
+.logo{
+   color: red;
+font-size: 2rem;
+font-weight: bolder;
+
+}
+.logo:hover{
+    color: crimson;
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+header:hover{
+    transition: all 3.3s ease;
+    background: aliceblue;
+    opacity: .8;
+}
+
+.button{
+    background: crimson;
+    color: white;
+    border-radius: 6%;
+    padding: 3px 5px;
+    font-weight: bold;
+    border: none;
+   cursor: pointer;
+}
+.button-2{
+background: #dc143c;
+padding-left:10px;
+padding-right:10px;
+padding-top: 9px;
+color: white;
+cursor: pointer;
+min-width: 9rem;
+}
+.button-2:hover{
+    color: gray;
+    background: red;
+}
+.button:hover{
+    background: transparent;
+    color:red;
+    background: white;
+}
+.one{
+    color: crimson;
+    padding-left: 5%;
+        padding-right: 5%;
+}
+.two{
+    color: crimson;
+    padding-left: 5%;
+        padding-right: 5%;
+}
+.main{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   font-size: 50px;
+display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-weight: 600;
+    padding-left: 5%;
+        padding-right: 5%;
+} 
+
+.main-2{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.main-3{
+
+padding-right: 2%;
+display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 1%;
+    font-weight: bold;
+}
+.email{
+display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-right: 1%;
+    height: 50px;
+   
+}
